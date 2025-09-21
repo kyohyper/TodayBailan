@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: sans-serif;
-    background: #FFEAA7;
+    background: linear-gradient(135deg, #667EEA 0%, #764BA2 100%);
 }
 
 #box {
@@ -36,8 +36,12 @@ button {
     background: #74B9FF;
     color: #FFF;
     cursor: pointer;
+    transition: all 0.3s ease;
+    
 }
 
 button:hover {
     background: #0984E3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
